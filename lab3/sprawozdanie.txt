@@ -1,0 +1,2 @@
+Rozwiązanie bezpośrednie zadziałało najszybciej ze wszystkich, ponadto jego dokładność jest również najwiękasza. Rozwiązanie iteracyjne sposobe Jacobiego też zadziałało dość szybko (ok 600 iteracji) i miało dużą dokładność (do 10^(-12)), a norma błędu rezudualnego zbiegała do 0, natomiast sposób Gaussa-Seidla zadziałało najgorzej - wykonywał się bardzo długo, a norma błędu rezydualnego nie zbiegała do 0.
+Może to wynikać z tego, że ta metoda w przeciwieństwie do dwóch pozostałych nie nadaje się do obliczeń na macierzach o tak dużych rozmiarach.

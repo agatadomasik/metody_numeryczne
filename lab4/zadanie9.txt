@@ -1,0 +1,9 @@
+tan(6)
+Miejsce zerowe: około 1.5708 (wartość w radianach, co odpowiada π/2)
+Wartość funkcji w miejscu zerowym: bliska zeru
+Flaga wyjścia: 1, co oznacza, że algorytm zakończył działanie na podstawie kryteriów tolerancji. Dla tego punktu algorytm zadziałał poprawnie.
+
+tan(4.5)
+Miejsce zerowe: około 4.7124 (wartość w radianach, co odpowiada 3/2π
+Wartość funkcji w miejscu zerowym: duża liczba
+Flaga wyjścia: -5, oznacza, że algorytm nie zakończył działania z powodu trudności zbieżności. Wynika to z faktu, że w punkcie 3π/2 występuje asymptota, a więc wartości po obydwu stronach tego punktu mają przeciwne znaki, jednak nie występuje miejsce zerowe.
